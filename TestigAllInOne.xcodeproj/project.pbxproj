@@ -16,7 +16,6 @@
 		C65B08E82961C66500589067 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65B08E72961C66400589067 /* PostModel.swift */; };
 		C676B25E2966FD9F00B3BFF9 /* GenericCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676B25D2966FD9F00B3BFF9 /* GenericCodable.swift */; };
 		C676B2622967000200B3BFF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676B2612967000200B3BFF9 /* SecondViewController.swift */; };
-		C6C8933C28F9401D0086A84D /* FourthVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C8933B28F9401D0086A84D /* FourthVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		C65B08E72961C66400589067 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		C676B25D2966FD9F00B3BFF9 /* GenericCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCodable.swift; sourceTree = "<group>"; };
 		C676B2612967000200B3BFF9 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		C6C8933B28F9401D0086A84D /* FourthVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVc.swift; sourceTree = "<group>"; };
 		DEFC2CE3C7AD64E7F080821E /* Pods-TestigAllInOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestigAllInOne.debug.xcconfig"; path = "Target Support Files/Pods-TestigAllInOne/Pods-TestigAllInOne.debug.xcconfig"; sourceTree = "<group>"; };
 		F81026A3BCC98EF0AEF79B8D /* Pods-TestigAllInOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestigAllInOne.release.xcconfig"; path = "Target Support Files/Pods-TestigAllInOne/Pods-TestigAllInOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +89,6 @@
 				C676B2612967000200B3BFF9 /* SecondViewController.swift */,
 				C676B25D2966FD9F00B3BFF9 /* GenericCodable.swift */,
 				C65B08E72961C66400589067 /* PostModel.swift */,
-				C6C8933B28F9401D0086A84D /* FourthVc.swift */,
 				C624A3F927AD2785006555F8 /* Main.storyboard */,
 				C624A3FC27AD278C006555F8 /* Assets.xcassets */,
 				C624A3FE27AD278C006555F8 /* LaunchScreen.storyboard */,
@@ -215,7 +212,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C624A3F427AD2785006555F8 /* AppDelegate.swift in Sources */,
-				C6C8933C28F9401D0086A84D /* FourthVc.swift in Sources */,
 				C65B08E82961C66500589067 /* PostModel.swift in Sources */,
 				C676B2622967000200B3BFF9 /* SecondViewController.swift in Sources */,
 				C676B25E2966FD9F00B3BFF9 /* GenericCodable.swift in Sources */,

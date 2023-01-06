@@ -1,23 +1,14 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class SecondViewController: UIViewController {
 
     
-    var k12Data: PostModel? {
-        didSet {
-            DispatchQueue.main.async{
-                self.paginationTable.reloadData()
-            }
-        }
-    }
+    var k12Data: PostModel?
     
     @IBOutlet weak var paginationTable: UITableView!
     
     override func viewDidLoad() {
-        paginationTable.delegate = self
-        paginationTable.dataSource = self
-        paginationTable.reloadData()
         testServiceCall()
     }
     
@@ -37,33 +28,4 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
             print("API response \(response)")
     }
     }
-        
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TestTableview", for: indexPath) as! TestTableview
-        cell.titleLbl.text = "ttt"
-        return cell
-    }
-    
-}
-
-
-class TestTableview: UITableViewCell {
-
-    @IBOutlet weak var titleLbl: UILabel!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-    }
-
-}
-
-
-
-struct PostResponse: Codable {
-    let job, name, id, createdAt: String
 }
