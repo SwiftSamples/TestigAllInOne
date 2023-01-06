@@ -12,7 +12,6 @@ class SecondViewController: UIViewController {
         testServiceCall()
     }
     
-    
     func testServiceCall(){
         
         let paramet = ["keyword": "",
@@ -24,7 +23,6 @@ class SecondViewController: UIViewController {
         
         let request = RequestObject(params: paramet, method: .post, path: "https://projects.axionitech.com/k12/preview/api/student/peer-k12admin-post", isTokenNeed: true, vc: self)
         WebService.sharedInstance.serviceCall(PostModel.self, with: request) { (response, error) in
-            
             print("API response \(response)")
     }
     }
