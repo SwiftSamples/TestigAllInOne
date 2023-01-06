@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20165539178E82A099D801C9 /* Pods_TestigAllInOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F192AF161ABBF4A239563E /* Pods_TestigAllInOne.framework */; };
 		C624A3F427AD2785006555F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624A3F327AD2785006555F8 /* AppDelegate.swift */; };
 		C624A3F627AD2785006555F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624A3F527AD2785006555F8 /* SceneDelegate.swift */; };
-		C624A3F827AD2785006555F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624A3F727AD2785006555F8 /* ViewController.swift */; };
 		C624A3FB27AD2785006555F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C624A3F927AD2785006555F8 /* Main.storyboard */; };
 		C624A3FD27AD278C006555F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C624A3FC27AD278C006555F8 /* Assets.xcassets */; };
 		C624A40027AD278C006555F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C624A3FE27AD278C006555F8 /* LaunchScreen.storyboard */; };
+		C65B08E82961C66500589067 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65B08E72961C66400589067 /* PostModel.swift */; };
+		C676B25E2966FD9F00B3BFF9 /* GenericCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676B25D2966FD9F00B3BFF9 /* GenericCodable.swift */; };
+		C676B2622967000200B3BFF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676B2612967000200B3BFF9 /* SecondViewController.swift */; };
+		C6C8933C28F9401D0086A84D /* FourthVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C8933B28F9401D0086A84D /* FourthVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30F192AF161ABBF4A239563E /* Pods_TestigAllInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestigAllInOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C624A3F027AD2785006555F8 /* TestigAllInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestigAllInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C624A3F327AD2785006555F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C624A3F527AD2785006555F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C624A3F727AD2785006555F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C624A3FA27AD2785006555F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C624A3FC27AD278C006555F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C624A3FF27AD278C006555F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C624A40127AD278C006555F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65B08E72961C66400589067 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		C676B25D2966FD9F00B3BFF9 /* GenericCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCodable.swift; sourceTree = "<group>"; };
+		C676B2612967000200B3BFF9 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C6C8933B28F9401D0086A84D /* FourthVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVc.swift; sourceTree = "<group>"; };
+		DEFC2CE3C7AD64E7F080821E /* Pods-TestigAllInOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestigAllInOne.debug.xcconfig"; path = "Target Support Files/Pods-TestigAllInOne/Pods-TestigAllInOne.debug.xcconfig"; sourceTree = "<group>"; };
+		F81026A3BCC98EF0AEF79B8D /* Pods-TestigAllInOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestigAllInOne.release.xcconfig"; path = "Target Support Files/Pods-TestigAllInOne/Pods-TestigAllInOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20165539178E82A099D801C9 /* Pods_TestigAllInOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49BF5ED21604247453253573 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F192AF161ABBF4A239563E /* Pods_TestigAllInOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E65C156776203A0F431A681 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEFC2CE3C7AD64E7F080821E /* Pods-TestigAllInOne.debug.xcconfig */,
+				F81026A3BCC98EF0AEF79B8D /* Pods-TestigAllInOne.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C624A3E727AD2785006555F8 = {
 			isa = PBXGroup;
 			children = (
 				C624A3F227AD2785006555F8 /* TestigAllInOne */,
 				C624A3F127AD2785006555F8 /* Products */,
+				4E65C156776203A0F431A681 /* Pods */,
+				49BF5ED21604247453253573 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +88,10 @@
 			children = (
 				C624A3F327AD2785006555F8 /* AppDelegate.swift */,
 				C624A3F527AD2785006555F8 /* SceneDelegate.swift */,
-				C624A3F727AD2785006555F8 /* ViewController.swift */,
+				C676B2612967000200B3BFF9 /* SecondViewController.swift */,
+				C676B25D2966FD9F00B3BFF9 /* GenericCodable.swift */,
+				C65B08E72961C66400589067 /* PostModel.swift */,
+				C6C8933B28F9401D0086A84D /* FourthVc.swift */,
 				C624A3F927AD2785006555F8 /* Main.storyboard */,
 				C624A3FC27AD278C006555F8 /* Assets.xcassets */,
 				C624A3FE27AD278C006555F8 /* LaunchScreen.storyboard */,
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C624A40427AD278C006555F8 /* Build configuration list for PBXNativeTarget "TestigAllInOne" */;
 			buildPhases = (
+				29C7D2DF659A6C1330B087A5 /* [CP] Check Pods Manifest.lock */,
 				C624A3EC27AD2785006555F8 /* Sources */,
 				C624A3ED27AD2785006555F8 /* Frameworks */,
 				C624A3EE27AD2785006555F8 /* Resources */,
+				CDFC97DAFDCD247EF8812246 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +167,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29C7D2DF659A6C1330B087A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestigAllInOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDFC97DAFDCD247EF8812246 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestigAllInOne/Pods-TestigAllInOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestigAllInOne/Pods-TestigAllInOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestigAllInOne/Pods-TestigAllInOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C624A3EC27AD2785006555F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C624A3F827AD2785006555F8 /* ViewController.swift in Sources */,
 				C624A3F427AD2785006555F8 /* AppDelegate.swift in Sources */,
+				C6C8933C28F9401D0086A84D /* FourthVc.swift in Sources */,
+				C65B08E82961C66500589067 /* PostModel.swift in Sources */,
+				C676B2622967000200B3BFF9 /* SecondViewController.swift in Sources */,
+				C676B25E2966FD9F00B3BFF9 /* GenericCodable.swift in Sources */,
 				C624A3F627AD2785006555F8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +303,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -277,17 +358,20 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		C624A40527AD278C006555F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFC2CE3C7AD64E7F080821E /* Pods-TestigAllInOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestigAllInOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +385,13 @@
 		};
 		C624A40627AD278C006555F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81026A3BCC98EF0AEF79B8D /* Pods-TestigAllInOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestigAllInOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
